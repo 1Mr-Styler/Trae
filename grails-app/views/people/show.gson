@@ -1,0 +1,12 @@
+import ttt.People
+
+response.status 200
+
+model {
+    People people
+}
+
+json {
+    name people.name
+    networth people.networth
+}
