@@ -41,7 +41,7 @@ dependencies {
     compile "org.grails:grails-logging"
     compile "org.grails.plugins:cache"
     compile "org.grails.plugins:async"
-    compile "org.grails.plugins:spring-security-rest:2.0.0.RC1"
+//    compile "org.grails.plugins:spring-security-rest:2.0.0.RC1"
     compile "org.grails.plugins:events"
     compile "org.grails.plugins:hibernate5"
     compile "org.hibernate:hibernate-core:5.1.5.Final"
@@ -51,6 +51,7 @@ dependencies {
     profile "org.grails.profiles:rest-api"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
     runtime "com.h2database:h2"
+    runtime 'mysql:mysql-connector-java:6.0.5' 
     runtime "org.apache.tomcat:tomcat-jdbc"
     testCompile "org.grails:grails-gorm-testing-support"
     testCompile "org.grails:grails-datastore-rest-client"
