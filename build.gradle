@@ -41,7 +41,7 @@ dependencies {
     compile "org.grails:grails-logging"
     compile "org.grails.plugins:cache"
     compile "org.grails.plugins:async"
-//    compile "org.grails.plugins:spring-security-rest:2.0.0.RC1"
+    compile "org.grails.plugins:spring-security-rest:2.0.0.RC1"
     compile "org.grails.plugins:events"
     compile "org.grails.plugins:hibernate5"
     compile "org.hibernate:hibernate-core:5.1.5.Final"
